@@ -21,7 +21,6 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 	//Criar um objeto janela
 
 
-
 	//Loop messege da janela
 	MSG msg = {};
 
