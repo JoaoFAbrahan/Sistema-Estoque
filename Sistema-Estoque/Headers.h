@@ -1,7 +1,5 @@
 #pragma once
 #include<Windows.h>
-#include<iostream>
-#include<locale>
 
 //Structs do Programa
 
@@ -16,3 +14,5 @@
 
 
 //Protótipos de Funções
+LRESULT CALLBACK WindowsProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
+
