@@ -18,6 +18,7 @@
 
 int main()
 {
+	//Start da aplicação
 	App app;
 
 	app.init_Window();
