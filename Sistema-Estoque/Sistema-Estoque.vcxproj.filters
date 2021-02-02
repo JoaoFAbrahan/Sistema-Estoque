@@ -13,13 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Class Files">
+      <UniqueIdentifier>{3fb1c97a-4da8-4500-be10-5e5937487fa0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WindowClass.cpp">
+      <Filter>Class Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Class Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="WindowClass.h">
+      <Filter>Class Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Class Files</Filter>
+    </ClInclude>
     <ClInclude Include="Headers.h">
       <Filter>Header Files</Filter>
     </ClInclude>

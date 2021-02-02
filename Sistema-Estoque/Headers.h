@@ -1,5 +1,6 @@
 #pragma once
-#include<Windows.h>
+#include"WindowClass.h"
+#include"App.h"
 
 //Structs do Programa
 
@@ -10,9 +11,9 @@
 
 
 //Variáveis Globais
-
+//HWND hwnd
 
 
 //Protótipos de Funções
-LRESULT CALLBACK WindowsProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
+//LRESULT CALLBACK WindowsProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
